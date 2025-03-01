@@ -12,3 +12,13 @@ variable "alert_action_group" {
   description = "Azure Monitor Action Group for cost alerts"
   type        = string
 }
+
+variable "subscription_id" {
+  description = "Azure Subscription ID"
+  type        = string
+}
+
+variable "tenant_id" {
+  description = "Azure Tenant ID"
+  type        = string
+}
